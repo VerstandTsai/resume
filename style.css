@@ -7,6 +7,18 @@ main {
   justify-content: center;
 }
 
+h1 {
+  font-size: 2em;
+}
+
+ul {
+  padding-left: 1.5em;
+}
+
+li {
+  margin: 1em 0;
+}
+
 .a4-paper {
   width: 70.7vh;
   height: 100vh;
@@ -14,65 +26,40 @@ main {
 
 #container {
   display: flex;
-  height: inherit;
+  flex-direction: column;
+  margin: 3vh;
+  color: #333;
   font-size: 1.5vh;
   font-family: "Inter", sans-serif;
 }
 
-#container ul {
-  padding-left: 1.5em;
-}
-
-.no-bullet {
-  padding: 0 !important;
-  list-style-type: none;
-}
-
-.content {
-  width: 80%;
-}
-
-.content > * {
-  margin: 5vh auto;
-}
-
-.content > section > h3 {
-  border-bottom-width: 0.2vh;
-  border-bottom-style: solid;
-}
-
-#left {
-  flex: 1;
+#header {
   display: flex;
-  justify-content: center;
-  background-color: #036;
-  color: #ccc;
+  justify-content: space-between;
+  align-items: center;
 }
 
-#left > .content > section > h3 {
-  border-bottom-color: #ccc;
-}
-
-#left > .content > section > ul > li {
-  margin: 1vh auto;
-}
-
-#right {
-  flex: 2;
-  display: flex;
-  justify-content: center;
-  color: #036;
-}
-
-#right > .content > section > h3 {
-  border-bottom-color: #036;
+#name {
+  text-align: center;
 }
 
 #name > * {
   margin: 0;
 }
 
-#name > h1 {
-  font-size: 6vh;
+#main {
+  display: flex;
+  flex-direction: column;
+}
+
+#main > section > h3 {
+  border-bottom-width: 0.1em;
+  border-bottom-style: solid;
+  border-bottom-color: #333;
+}
+
+.record > h4 {
+  display: flex;
+  justify-content: space-between;
 }
 

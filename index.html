@@ -6,86 +6,103 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/ce4b12ebab.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ce4b12ebab.js" crossorigin="anonymous"--></script>
     <title>Justin C. Tsai's Resume</title>
   </head>
   <body>
     <main>
       <div class="a4-paper">
         <div id="container">
-          <div id="left">
-            <div class="content">
-              <section>
-                <h3>CONTACT</h3>
-                <ul class="no-bullet">
-                  <li><i class="fa-solid fa-phone"></i> +886 987-187-856</li>
-                  <li><i class="fa-solid fa-envelope"></i> b13902145@ntu.edu.tw</li>
-                  <li><i class="fa-brands fa-github"></i> VerstandTsai</li>
-                </ul>
-              </section>
-              <section>
-                <h3>EDUCATION</h3>
-                <h4>
-                  2024 - Current<br>
-                  National Taiwan University
-                </h4>
-                <ul>
-                  <li>Computer Science Undergraduate</li>
-                </ul>
-              </section>
-              <section>
-                <h3>LANGUAGES</h3>
-                <ul>
-                  <li>Mandarin</li>
-                  <li>English</li>
-                </ul>
-              </section>
+          <section id="header">
+            <div>
+              2F., No. 11, Ln. 87,<br>
+              Fuxing Rd., Luzhou Dist.,<br>
+              New Taipei City, Taiwan
             </div>
-          </div>
-          <div id="right">
-            <div class="content">
-              <div id="name">
-                <h1>Justin C. Tsai</h1>
-                <h2>(TSAI,CHENG-TING)</h2>
-              </div>
-              <section>
-                <h3>ABOUT ME</h3>
+            <div id="name">
+              <h1>Justin C. Tsai</h1>
+              <h2>(TSAI, CHENG-TING)</h2>
+            </div>
+            <div>
+              <i class="fa-solid fa-phone"></i> +886 987-187-856<br>
+              <i class="fa-solid fa-envelope"></i> b13902145@ntu.edu.tw<br>
+              <i class="fa-brands fa-github"></i> @VerstandTsai
+            </div>
+          </section>
+          <section id="main">
+            <section>
+              <h3>EDUCATION</h3>
+              <section class="record">
+                <h4>
+                  <span>National Taiwan University</span>
+                  <span>Sep 2024 - Present</span>
+                </h4>
                 <div>
-                  <p>I'm currently a computer science undergraduate at National Taiwan University.</p>
-                  <p>I'm enthusiastic about everything related to computers, and I like to work on personal projects in my free time.</p>
-                  <p>I'm most interested in the field of machine learning, computer architecture, and operating system.</p>
+                  <p>Bachelor of Science in Computer Science and Information Engineering</p>
+                  <p>Expected: Jun 2028</p>
                 </div>
               </section>
-              <section>
-                <h3>SKILLS</h3>
+            </section>
+            <section>
+              <h3>EXPERIENCES</h3>
+              <section class="record">
+                <h4>
+                  <span>(MOCK EXPERIENCE) Intern Lecturer, NTU CSIE Sprout</span>
+                  <span>Mar 2025 - Present</span>
+                </h4>
                 <ul>
-                  <li>Experience in low-level development in C.</li>
-                  <li>Experience in object-oriented programming in C++.</li>
-                  <li>Experience in Python and its libraries such as NumPy and MatplotLib.</li>
+                  <li>Lecture over 50 students on the basics of C programming every Saturday.</li>
                 </ul>
               </section>
-              <section>
-                <h3>EXPERIENCES</h3>
-                <p>
-                  Back in Chieng-Kuo High School, I was one of the academic staffs of the CKEFGISC student club
-                  i.e. I taught fellow classmates computer-related lectures, including:
-                </p>
+              <section class="record">
+                <h4>
+                  <span>Academic, Chieng-Kuo Eletronic Industrial Study Club</span>
+                  <span>Sep 2022 - Jun 2023</span>
+                </h4>
                 <ul>
-                  <li>Object-Oriented Programming and Project Management</li>
-                  <li>Computer Architecture</li>
-                  <li>Machine Learning</li>
+                  <li>
+                    Lectured over 20 club members on various programming-related fields, including:
+                    <ul>
+                      <li>Object-Oriented Programming and Project Management</li>
+                      <li>Computer Architecture</li>
+                      <li>Machine Learning</li>
+                    </ul>
+                  </li>
+                  <li>
+                    Developed the 27th CKEFGISC club website using plain HTML/CSS and JavaScript,
+                    which increased the club's publicity by 20% according to backend data.
+                  </li>
                 </ul>
-                <p>
-                  I was also the one of the main developers of 27th CKEFGISC club website, link:
-                  <a href="https://27th.ckefgisc.org">https://27th.ckefgisc.org</a>.<br>
-                </p>
-                <p>
-                  The source code of said site can be found on
-                  <a href="https://www.github.com/VerstandTsai/CKEFGISC.github.io">https://github.com/VerstandTsai/CKEFGISC.github.io</a>
-                </p>
               </section>
-            </div>
-          </div>
+            </section>
+            <section>
+              <h3>PROJECTS</h3>
+              <section class="record">
+                <h4>3D Renderer Using C++</h4>
+                <ul>
+                  <li>
+                    Built a 3D renderer using C++ and SDL,
+                    with the ability to render simple geometries
+                    as well as importing OBJ 3D models.
+                  </li>
+                </ul>
+              </section>
+              <section class="record">
+                <h4>Deep Neural Network Using NumPy</h4>
+                <ul>
+                  <li>
+                    Created a highly-modulized neural network library
+                    from mathematical princples using NumPy
+                    without a deep learning framework.
+                  </li>
+                  <li>
+                    Used the result of the project as teaching material
+                    for the CKEISC Machine Learning lecture.
+                  </li>
+                </ul>
+              </section>
+            </section>
+          </section>
         </div>
       </div>
     </main>
