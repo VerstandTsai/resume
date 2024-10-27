@@ -27,7 +27,7 @@ li {
 #container {
   display: flex;
   flex-direction: column;
-  margin: 3vh;
+  margin: 3em;
   color: #333;
   font-size: 1.5vh;
   font-family: "Inter", sans-serif;
